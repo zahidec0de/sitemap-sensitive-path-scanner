@@ -32,21 +32,25 @@ Add ``-v`` to show debug logs.
 
 ## How to Use
 #### 1. Clone the repository
-```git clone ....```
-  ```bash
-  python3 shredin.py file1.txt file2.csv file3.json
-  ```
+```bash
+https://github.com/zahidec0de/sitemap-sensitive-path-scanner.git
+cd cd sitemap-sensitive-path-scanner
+```
 
 #### 2. Make the bash file executable
+```bash
+chmod +x sitemap_scan.sh
+```
+
+#### 3. Scan a domain 
 ```bash
 ./sitemap_scan.sh example.com
 ```
 
-#### 3. Scan a domain 
-```./sitemap_scan.sh example.com```
-
 #### 4. Debug mode
-```./sitemap_scan.sh example.com -v```
+```bash
+./sitemap_scan.sh example.com -v
+```
 
 ## Contributing
 All contributions are welcome.

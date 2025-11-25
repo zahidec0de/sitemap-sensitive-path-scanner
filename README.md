@@ -32,16 +32,16 @@ Add ``-v`` to show debug logs.
 
 ## How to Use
 #### 1. Clone the repository
-``git clone ....``
+```git clone ....```
 
 #### 2. Make the bash file executable
-``./sitemap_scan.sh example.com``
+```./sitemap_scan.sh example.com```
 
 #### 3. Scan a domain 
-``./sitemap_scan.sh example.com``
+```./sitemap_scan.sh example.com```
 
 #### 4. Debug mode
-``./sitemap_scan.sh example.com -v``
+```./sitemap_scan.sh example.com -v```
 
 ## Contributing
 All contributions are welcome.

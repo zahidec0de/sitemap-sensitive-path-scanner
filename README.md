@@ -28,4 +28,22 @@ It ONLY flags real URLs that contain sensitive patterns.
 Only the URLs that need attention are displayed.
 
 #### 7. Verbose mode (optional)
-Add -v to show debug logs.
+Add ``-v`` to show debug logs.
+
+## How to Use
+#### 1. Clone the repository
+``git clone ....``
+
+#### 2. Make the bash file executable
+``./sitemap_scan.sh example.com``
+
+#### 3. Scan a domain 
+``./sitemap_scan.sh example.com``
+
+#### 4. Debug mode
+``./sitemap_scan.sh example.com -v``
+
+## Contributing
+All contributions are welcome.
+You may add new keywords, improve scanning, or extend functionality.
+

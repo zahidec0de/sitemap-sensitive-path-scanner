@@ -33,9 +33,14 @@ Add ``-v`` to show debug logs.
 ## How to Use
 #### 1. Clone the repository
 ```git clone ....```
+  ```bash
+  python3 shredin.py file1.txt file2.csv file3.json
+  ```
 
 #### 2. Make the bash file executable
-```./sitemap_scan.sh example.com```
+```bash
+./sitemap_scan.sh example.com
+```
 
 #### 3. Scan a domain 
 ```./sitemap_scan.sh example.com```
